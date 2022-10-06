@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Switch Statement Assignment</title>
+    <style>
+        /* styling the body size */
+        body
+        {
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>You are going to the trip</h2>
+    <script>
+        //declaring city name
+        var city = 'Paris';
+        switch (city) {
+            //declaring the first city
+            case 'NewYork':
+                document.write('You are in <b> New York</b>');
+                break;
+            //declaring the second city
+            case 'Swizerland':
+                document.write('You are in <b>swizerland</b>');
+                break;
+            //declaring the third city which will be printed
+            case 'Paris':
+                document.write(`you have <b> ${city} </b> visa`)
+                document.write("<br>")
+                document.write('You are in <b>Paris</b> trip');
+                break;
+            default:
+                document.write('Enjoy your trip');
+        }
+    </script>
+</body>
+
+</html>
